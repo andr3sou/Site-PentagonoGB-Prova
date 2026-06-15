@@ -9,8 +9,8 @@ const produtosLoja = [
 // CARRINHO
 let produtosCarrinho = [];
 
-// PEGA TODOS OS BOTÕES DOS PRODUTOS
-const botoesAdicionar = document.querySelectorAll(".produto button");
+
+const botoesAdicionar = document.getElementById(".produtoBotao");
 
 // ADICIONA EVENTO AOS BOTÕES
 botoesAdicionar.forEach((botao, index) => {
